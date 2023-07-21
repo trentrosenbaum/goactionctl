@@ -25,4 +25,4 @@ jobs:
 
     - name: Check if directory exists
       run: |
-        bash check_directory.sh "testaction"
+        bash ${GITHUB_WORKSPACE}/.github/scripts/check_directory.sh "testaction"
