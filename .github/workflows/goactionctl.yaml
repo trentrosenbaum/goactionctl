@@ -21,7 +21,7 @@ jobs:
     - name: Build and run the GoActionCTL CLI
       run: |
         make build
-        ./goactionctl testaction
+        ./bin/goactionctl testaction
 
     - name: Check if directory exists
       run: |
